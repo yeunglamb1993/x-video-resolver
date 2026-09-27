@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: x-video-resolver
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
